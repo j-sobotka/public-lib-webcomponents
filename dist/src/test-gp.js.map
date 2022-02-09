@@ -1,0 +1,1 @@
+{"version":3,"file":"test-gp.js","sourceRoot":"","sources":["../../src/test-gp.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,MAAM,EAAE,MAAM,aAAa,CAAC;AAErC,MAAM,CAAC,cAAc,CAAC,MAAM,CAAC,SAAS,EAAE,MAAM,CAAC,CAAC","sourcesContent":["import { TestGp } from './TestGp.js';\n\nwindow.customElements.define('test-gp', TestGp);\n"]}
