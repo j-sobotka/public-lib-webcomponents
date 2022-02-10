@@ -1,16 +1,7 @@
-import { html, css, LitElement } from 'lit';
-import { property } from 'lit/decorators.js';
+import { html, LitElement, property } from "lit-element";
 
 export class TestGp extends LitElement {
-  static styles = css`
-    :host {
-      display: block;
-      padding: 25px;
-      color: var(--test-gp-text-color, #000);
-    }
-  `;
-
-  @property({ type: String }) title = 'Hey there';
+  @property({ type: String }) title = "Hey there";
 
   @property({ type: Number }) counter = 5;
 

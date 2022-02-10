@@ -1,8 +1,7 @@
-import { LitElement } from 'lit';
+import { LitElement } from "lit-element";
 export declare class TestGp extends LitElement {
-    static styles: import("lit").CSSResult;
     title: string;
     counter: number;
     __increment(): void;
-    render(): import("lit-html").TemplateResult<1>;
+    render(): import("lit-element").TemplateResult;
 }

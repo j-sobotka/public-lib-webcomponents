@@ -1,1 +1,1 @@
-export { TestGp } from './TestGp.js';
+export {};

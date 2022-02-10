@@ -1,1 +1,1 @@
-{"version":3,"file":"index.js","sourceRoot":"","sources":["../../src/index.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,MAAM,EAAE,MAAM,aAAa,CAAC","sourcesContent":["export { TestGp } from './TestGp.js';\n"]}
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../src/index.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,MAAM,EAAE,MAAM,UAAU,CAAC;AAElC,MAAM,CAAC,cAAc,CAAC,MAAM,CAAC,SAAS,EAAE,MAAM,CAAC,CAAC","sourcesContent":["import { TestGp } from \"./TestGp\";\n\nwindow.customElements.define(\"test-gp\", TestGp);\n"]}
