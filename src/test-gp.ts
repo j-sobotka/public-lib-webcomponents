@@ -2,7 +2,7 @@ import { customElement, html, LitElement, property } from 'lit-element';
 
 @customElement('test-gp')
 export class TestGp extends LitElement {
-    @property({ type: String }) title = 'Hey there';
+    @property({ type: String }) title = 'Witaj !';
 
     @property({ type: Number }) counter = 5;
 
@@ -13,7 +13,7 @@ export class TestGp extends LitElement {
     render() {
         return html`
             <h2>${this.title} Nr. ${this.counter}!</h2>
-            <button @click=${this.__increment}>increment</button>
+            <button @click=${this.__increment}>Klik !</button>
         `;
     }
 }

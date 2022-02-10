@@ -10,6 +10,11 @@ export class MapTestWidget extends LitElement {
         :host {
             display: block;
         }
+
+        .map-container {
+            position: absolute;
+            height: 100%;
+        }
     `;
 
     handleClick = () => {
@@ -17,6 +22,6 @@ export class MapTestWidget extends LitElement {
     };
     render() {
         return html`<map-button .onClick=${this.handleClick} ?hidden=${this.opened} title="Klik"></map-button>
-            <map-container .onClick=${this.handleClick} ?hidden=${!this.opened}><test-gp></test-gp></map-container>`;
+            <map-container title="Testowy komponent" .onClick=${this.handleClick} ?hidden=${!this.opened}><test-gp></test-gp></map-container>`;
     }
 }
