@@ -1,3 +1,4 @@
-import { TestGp } from "./TestGp";
-
-window.customElements.define("test-gp", TestGp);
+import './test-gp';
+import './map-button';
+import './map-container';
+import './map-test-widget';
