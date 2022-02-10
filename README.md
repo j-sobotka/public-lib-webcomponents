@@ -5,31 +5,28 @@ This webcomponent follows the [open-wc](https://github.com/open-wc/open-wc) reco
 ## Installation
 
 ```bash
-npm i test-gp
+yarn install
 ```
 
 ## Usage
 
 ```html
-<script type="module">
-  import 'test-gp/test-gp.js';
-</script>
+<script defer="defer" src="https://j-sobotka.github.io/public-lib-webcomponents/build/bundle.js"></script>
 
 <test-gp></test-gp>
 ```
 
+## Components
 
-
-## Tooling configs
-
-For most of the tools, the configuration is in the `package.json` to reduce the amount of files in your project.
-
-If you customize the configuration a lot, you can consider moving them to individual files.
+-   `<map-button>`
+-   `<map-container>`
+-   `<map-test-widget>`
+-   `<test-gp>`
 
 ## Local Demo with `web-dev-server`
 
 ```bash
-npm start
+yarn start
 ```
 
 To run a local development server that serves the basic demo located in `demo/index.html`
